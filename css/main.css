@@ -38,3 +38,7 @@ html {
     overflow: visible;
     top: 10vh;
 }
+
+.slier__wrapper {
+    transition: ease .75s!important;
+}
