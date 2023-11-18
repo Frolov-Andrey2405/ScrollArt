@@ -80,3 +80,17 @@ html {
     transform: rotate(-15deg) scale(1.45);
     box-shadow: rgb(0 0 0 / .75) 0 0 0 10000px;
 }
+
+.description {
+    position: absolute;
+    font-size: calc(var(--sizeindex) * .8);
+    top: 20vh;
+    left: 8vw;
+    max-width: 24vw;
+}
+
+.logo {
+    font-size: calc(var(--sizeindex) * 3.6);
+    font-weight: 900;
+    display: inline-block;
+}
