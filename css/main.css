@@ -42,11 +42,13 @@ html {
 
 .slier__wrapper {
     transition: var(--transition) !important;
+    will-change: transform;
 }
 
 .slider__item {
     max-height: 75vh;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .slider__img {
@@ -56,4 +58,5 @@ html {
     position: absolute;
     left: -100%;
     transition: var(--transition) !important;
+    will-change: transform;
 }
